@@ -1,23 +1,23 @@
 {
-	"name"            : "chainer",
-	"version"         : "2.2.6",
-	"description"     : "Chain your API!",
-	"main"            : "index.js",
-	"devDependencies" : {},
-	"keywords"        : [
-		"chain"
-	],
-	"author"          : {
-		"name"  : "mitroofann",
-		"email" : "mitroofann@gmail.com"
-	},
-	"repository"      : {
-		"type" : "git",
-		"url"  : "git+https://mitroofann@bitbucket.org/mitroofann/chainer.git"
-	},
-	"homepage"        : "https://bitbucket.org/mitroofann/chainer#readme",
-	"license"         : "Unlicense",
-	"dependencies"    : {
-		"time"    : "https://mitroofann:Amigo264466@bitbucket.org/mitroofann/time.git"
-	}
+  "name": "mitroofann-chainer",
+  "version": "0.0.1",
+  "description": "Chain your API!",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": [
+    "chain"
+  ],
+  "author": "mitroofann <mitroofann@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitroofann/mitroofann-chainer.git"
+  },
+  "homepage": "https://github.com/mitroofann/mitroofann-chainer.git",
+  "license": "MIT",
+  "dependencies": {
+    "mitroofann-gettime": "0.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
