@@ -1,0 +1,23 @@
+{
+	"name"            : "chainer",
+	"version"         : "2.2.6",
+	"description"     : "Chain your API!",
+	"main"            : "index.js",
+	"devDependencies" : {},
+	"keywords"        : [
+		"chain"
+	],
+	"author"          : {
+		"name"  : "mitroofann",
+		"email" : "mitroofann@gmail.com"
+	},
+	"repository"      : {
+		"type" : "git",
+		"url"  : "git+https://mitroofann@bitbucket.org/mitroofann/chainer.git"
+	},
+	"homepage"        : "https://bitbucket.org/mitroofann/chainer#readme",
+	"license"         : "Unlicense",
+	"dependencies"    : {
+		"time"    : "https://mitroofann:Amigo264466@bitbucket.org/mitroofann/time.git"
+	}
+}
