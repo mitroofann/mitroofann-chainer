@@ -209,7 +209,7 @@ myObject
 
 		resolve('called from here: my label 2');
 
-	})//won't be called
+	})
 	.log()//called from here: my label 2
 	.asyncRejectExample(1000)
 	.log(`Won't be shown`)
