@@ -1,23 +1,14 @@
 {
   "name": "mitroofann-chainer",
-  "version": "0.0.1",
-  "description": "Chain your API!",
+  "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "keywords": [
-    "chain"
+    "chain",
+    "mitroofann"
   ],
   "author": "mitroofann <mitroofann@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mitroofann/mitroofann-chainer.git"
-  },
-  "homepage": "https://github.com/mitroofann/mitroofann-chainer.git",
   "license": "MIT",
   "dependencies": {
-    "mitroofann-gettime": "0.0.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "mitroofann-datetime": "1.0.0"
   }
 }
