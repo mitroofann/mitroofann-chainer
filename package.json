@@ -1,8 +1,10 @@
 {
   "name": "mitroofann-chainer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "keywords": [
+    "asynchronous",
+    "synchronous",
     "chain",
     "mitroofann"
   ],
@@ -10,5 +12,17 @@
   "license": "MIT",
   "dependencies": {
     "mitroofann-datetime": "1.0.0"
-  }
+  },
+  "description": "``` $ npm install mitroofann-chainer ```",
+  "scripts": {
+    "test": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitroofann/mitroofann-chainer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mitroofann/mitroofann-chainer/issues"
+  },
+  "homepage": "https://github.com/mitroofann/mitroofann-chainer#readme"
 }
