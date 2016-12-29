@@ -184,15 +184,15 @@ myObject
 			.catch((resolve, reject, err) => {
 				console.log(err);//TypeError: Cannot read property 'reallyBad' of undefined
 
-				resolve('called from here: my label 1');
+				resolve('my label 1');
 			})
-			.log();//called from here: my label 1
+			.log('called from here:');//called from here: my label 1
 
 		resolve();
 	})
 	.catch((resolve, reject, err) => {
 
-		resolve('called from here: my label 2');
+		resolve('my label 2');
 
 	})//won't be called
 	.then(function (resolve, reject, ...rest) {
@@ -207,10 +207,10 @@ myObject
 	})
 	.catch((resolve, reject, err) => {
 
-		resolve('called from here: my label 2');
+		resolve('my label 2');
 
 	})
-	.log()//called from here: my label 2
+	.log('called from here:')//called from here: my label 2
 	.asyncRejectExample(1000)
 	.log(`Won't be shown`)
 	.catch(function (resolve, reject, err) {

@@ -35,7 +35,7 @@ const defaultMethods = {
 	wait: _wait
 };
 const util           = require('util');
-//const TIME           = require('mitroofann-datetime');
+const TIME           = require('mitroofann-datetime');
 
 /**
  * Функция принимает функцию-конструктор и методы которые нужно добавить в прототип
@@ -434,7 +434,7 @@ function _then (resolve, reject, callee, ...rest)
  */
 function _wait (resolve, reject, ms, ...rest)
 {
-	setTimeout(resolve, ms || /*TIME.MS.random(1000, 60000)*/1, ...rest);
+	setTimeout(resolve, ms || TIME.MS.random(1000, 60000), ...rest);
 }
 
 module.exports = createAPI;
